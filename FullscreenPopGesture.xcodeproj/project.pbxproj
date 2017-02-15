@@ -15,6 +15,11 @@
 		5C4740F41E530A8B00E22B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4740F21E530A8B00E22B57 /* LaunchScreen.storyboard */; };
 		5C4740FF1E530A8C00E22B57 /* FullscreenPopGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4740FE1E530A8C00E22B57 /* FullscreenPopGestureTests.m */; };
 		5C47410A1E530A8C00E22B57 /* FullscreenPopGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4741091E530A8C00E22B57 /* FullscreenPopGestureUITests.m */; };
+		5C47411A1E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4741191E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		5C47411D1E530AC200E22B57 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C47411C1E530AC200E22B57 /* FirstViewController.m */; };
+		5C4741201E530ACD00E22B57 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C47411F1E530ACD00E22B57 /* SecondViewController.m */; };
+		5C4741231E530AD700E22B57 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4741221E530AD700E22B57 /* ThirdViewController.m */; };
+		5C4741291E530F2600E22B57 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4741281E530F2600E22B57 /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		5C4741051E530A8C00E22B57 /* FullscreenPopGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenPopGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4741091E530A8C00E22B57 /* FullscreenPopGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenPopGestureUITests.m; sourceTree = "<group>"; };
 		5C47410B1E530A8C00E22B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4741181E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		5C4741191E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		5C47411B1E530AC200E22B57 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5C47411C1E530AC200E22B57 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5C47411E1E530ACD00E22B57 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5C47411F1E530ACD00E22B57 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5C4741211E530AD700E22B57 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5C4741221E530AD700E22B57 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5C4741271E530F2600E22B57 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		5C4741281E530F2600E22B57 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		5C4740D81E530A8B00E22B57 = {
 			isa = PBXGroup;
 			children = (
+				5C4741171E530AA400E22B57 /* FDFullscreenPopGesture */,
 				5C4740E31E530A8B00E22B57 /* FullscreenPopGesture */,
 				5C4740FD1E530A8C00E22B57 /* FullscreenPopGestureTests */,
 				5C4741081E530A8C00E22B57 /* FullscreenPopGestureUITests */,
@@ -103,6 +119,14 @@
 			children = (
 				5C4740E71E530A8B00E22B57 /* AppDelegate.h */,
 				5C4740E81E530A8B00E22B57 /* AppDelegate.m */,
+				5C47411B1E530AC200E22B57 /* FirstViewController.h */,
+				5C47411C1E530AC200E22B57 /* FirstViewController.m */,
+				5C47411E1E530ACD00E22B57 /* SecondViewController.h */,
+				5C47411F1E530ACD00E22B57 /* SecondViewController.m */,
+				5C4741211E530AD700E22B57 /* ThirdViewController.h */,
+				5C4741221E530AD700E22B57 /* ThirdViewController.m */,
+				5C4741271E530F2600E22B57 /* FourViewController.h */,
+				5C4741281E530F2600E22B57 /* FourViewController.m */,
 				5C4740EA1E530A8B00E22B57 /* ViewController.h */,
 				5C4740EB1E530A8B00E22B57 /* ViewController.m */,
 				5C4740ED1E530A8B00E22B57 /* Main.storyboard */,
@@ -138,6 +162,15 @@
 				5C47410B1E530A8C00E22B57 /* Info.plist */,
 			);
 			path = FullscreenPopGestureUITests;
+			sourceTree = "<group>";
+		};
+		5C4741171E530AA400E22B57 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5C4741181E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.h */,
+				5C4741191E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4741201E530ACD00E22B57 /* SecondViewController.m in Sources */,
 				5C4740EC1E530A8B00E22B57 /* ViewController.m in Sources */,
+				5C4741291E530F2600E22B57 /* FourViewController.m in Sources */,
 				5C4740E91E530A8B00E22B57 /* AppDelegate.m in Sources */,
+				5C47411D1E530AC200E22B57 /* FirstViewController.m in Sources */,
+				5C47411A1E530AA400E22B57 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				5C4740E61E530A8B00E22B57 /* main.m in Sources */,
+				5C4741231E530AD700E22B57 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
